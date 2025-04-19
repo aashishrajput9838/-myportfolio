@@ -121,7 +121,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Aashish Rajput - [aashishrajput9838@gmail.com](mailto:aashishrajput9838@gmail.com)
 
-Project Link: [https://github.com/aashishrajput9838/portfolio](https://github.com/aashishrajput9838/portfolio)
+Project Link: [https://aashishrajput9838.github.io/-myportfolio/](https://aashishrajput9838.github.io/-myportfolio/)
 
 ---
 
