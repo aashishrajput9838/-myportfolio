@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aashish Rajput | Portfolio</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Particles.js for background effects -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <!-- Metadata for SEO -->
+  <meta name="description" content="Aashish Rajput's Portfolio - B.Tech CSE Student at Sharda University">
+  <meta name="keywords" content="Aashish Rajput, Portfolio, CSE Student, Java, Python, Web Development">
+  <meta name="author" content="Aashish Rajput">
+  
+  <style>
+    .hover-effect:hover {
+      background: linear-gradient(135deg, #E8A44B, #FFBF63);
+      color: #0C0A04 !important;
+      border-color: transparent !important;
+    }
+  </style>
+</head>
+
+<body id="top" style="background-color: #FFF0DC; color: #553811;" class="dark:bg-gray-900 dark:text-white">
+
+  <!-- Navbar -->
+  <nav class="text-white p-4 flex justify-between items-center shadow" style="background-color: #E8A44B;">
+    <h1 class="text-2xl font-bold">
+      <span class="text-white">Aashish</span>
+      <span style="color: #553811;">Rajput</span>
+    </h1>
+    <ul class="flex space-x-6 items-center">
+      <li><a href="#about" class="hover:underline"><i class="fas fa-user-circle mr-1"></i> About</a></li>
+      <li><a href="#skills" class="hover:underline"><i class="fas fa-laptop-code mr-1"></i> Skills</a></li>
+      <li><a href="#projects" class="hover:underline"><i class="fas fa-project-diagram mr-1"></i> Projects</a></li>
+      <li><a href="#contact" class="hover:underline"><i class="fas fa-envelope mr-1"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section with Particles Background -->
+  <section class="text-center py-16 px-6 relative">
+    <div id="particles-js" class="absolute top-0 left-0 w-full h-full z-0"></div>
+    <div class="relative z-10">
+      <div class="inline-block p-2 rounded-lg mb-4" style="background-color: rgba(232, 164, 75, 0.1); border: 1px solid rgba(232, 164, 75, 0.2);">
+        <span style="color: #553811; font-weight: 600;" class="dark:text-blue-200 font-medium">👋 Hello World!</span>
+      </div>
+      <h2 class="text-4xl font-bold mb-4 text-gray-900 dark:text-white drop-shadow-md">
+        Hi, I'm Aashish Rajput
+      </h2>
+      <p class="text-lg text-gray-800 dark:text-gray-200 max-w-2xl mx-auto">
+        A passionate Computer Science student exploring the world of software development, AI, and web tech!
+      </p>
+      <p class="mt-3 text-md text-gray-700 dark:text-gray-300 font-medium">
+        "Building solutions. One line of code at a time."
+      </p>
+      
+      <div class="mt-8 flex justify-center space-x-4">
+        <a href="#projects" style="background: linear-gradient(135deg, #E8A44B, #FFBF63); color: #0C0A04;" class="px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition duration-300 flex items-center">
+          <i class="fas fa-eye mr-2"></i> View My Work
+        </a>
+        <a href="#contact" style="border: 2px solid #E8A44B; color: #E8A44B;" class="hover:text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition duration-300 flex items-center hover-effect">
+          <i class="fas fa-paper-plane mr-2"></i> Contact Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-12 px-6 bg-gray-100 dark:bg-gray-800">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-8 text-center text-gray-900 dark:text-white">About Me</h2>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
+        <p class="mb-3 text-gray-800 dark:text-gray-200">I'm a B.Tech CSE Student at Sharda University (Section: D, Roll No: 2301010007, System ID: 2023329421).</p>
+        <p class="mb-3 text-gray-800 dark:text-gray-200">As a shy and introverted individual, I channel my focus into coding and problem-solving. I'm particularly interested in Data Structures and Algorithms using Java, Web Development, and AI-based projects using Python.</p>
+        <p class="mb-3 text-gray-800 dark:text-gray-200">When I'm not coding, you'll find me gaming, reading, or solving interesting problems.</p>
+        <p class="italic text-gray-800 dark:text-gray-200">"Quiet but curious. Always learning, always building."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-12 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-8 text-center text-gray-900 dark:text-white">Skills</h2>
+      
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg mb-8">
+        <h3 class="text-xl font-semibold mb-4 flex items-center">
+          <i class="fas fa-code text-blue-600 mr-2"></i>
+          <span>Programming Languages</span>
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fab fa-java mr-2"></i>Java</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fab fa-python mr-2"></i>Python</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fab fa-js mr-2"></i>JavaScript</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fab fa-html5 mr-2"></i>HTML/CSS</span>
+        </div>
+      </div>
+      
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg mb-8">
+        <h3 class="text-xl font-semibold mb-4 flex items-center">
+          <i class="fas fa-tools text-blue-600 mr-2"></i>
+          <span>Tools & Technologies</span>
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fas fa-database mr-2"></i>Firebase</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fas fa-camera mr-2"></i>OpenCV</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fas fa-table mr-2"></i>Google Sheets API</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fas fa-server mr-2"></i>JSP & Servlets</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fab fa-git-alt mr-2"></i>Git & GitHub</span>
+        </div>
+      </div>
+      
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+        <h3 class="text-xl font-semibold mb-4 flex items-center">
+          <i class="fas fa-user-friends text-blue-600 mr-2"></i>
+          <span>Soft Skills</span>
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fas fa-users mr-2"></i>Team Player</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fas fa-headphones mr-2"></i>Good Listener</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fas fa-lightbulb mr-2"></i>Problem Solver</span>
+          <span class="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg text-center"><i class="fas fa-brain mr-2"></i>Adaptable Learner</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-12 px-6 bg-gray-100 dark:bg-gray-800">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-8 text-center text-gray-900 dark:text-white">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+          <div class="text-4xl text-blue-600 mb-4">🧮</div>
+          <h3 class="text-xl font-bold mb-3">Face Recognition Attendance System</h3>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">Python</span>
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">OpenCV</span>
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">NumPy</span>
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">Firebase</span>
+          </div>
+          <p class="mb-4 text-gray-800 dark:text-gray-200">Contactless attendance system using real-time face recognition technology. Collaborated with Aditya Pandey.</p>
+          <div class="flex justify-end">
+            <a href="https://github.com/aashishrajput9838/face-recognition-attendance" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 dark:text-blue-400 flex items-center">
+              <span class="mr-1">View Project</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+          <div class="text-4xl text-blue-600 mb-4">🌐</div>
+          <h3 class="text-xl font-bold mb-3">Free Class Navigator</h3>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">HTML</span>
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">CSS</span>
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">JavaScript</span>
+          </div>
+          <p class="mb-4 text-gray-800 dark:text-gray-200">Standalone tool to find available classrooms at Sharda University with responsive and user-friendly interface.</p>
+          <div class="flex justify-end">
+            <a href="https://github.com/aashishrajput9838/free-class-navigator" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 dark:text-blue-400 flex items-center">
+              <span class="mr-1">View Project</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+          <div class="text-4xl text-blue-600 mb-4">🧾</div>
+          <h3 class="text-xl font-bold mb-3">Certificate Maker Website</h3>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">Firebase</span>
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">Google Sheets API</span>
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">WhatsApp API</span>
+          </div>
+          <p class="mb-4 text-gray-800 dark:text-gray-200">Web application with user authentication and WhatsApp API integration for certificate generation and distribution.</p>
+          <div class="flex justify-end">
+            <a href="https://github.com/aashishrajput9838/certificate-maker" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 dark:text-blue-400 flex items-center">
+              <span class="mr-1">View Project</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+          <div class="text-4xl text-blue-600 mb-4">💻</div>
+          <h3 class="text-xl font-bold mb-3">Dbwithweb (JSP Project)</h3>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">Java Servlets</span>
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">JSP</span>
+            <span class="bg-blue-100 dark:bg-blue-900 px-3 py-1 rounded-full text-xs">HTML</span>
+          </div>
+          <p class="mb-4 text-gray-800 dark:text-gray-200">Web application implementing basic database operations (Insert, Delete, Update, Display).</p>
+          <div class="flex justify-end">
+            <a href="https://github.com/aashishrajput9838/dbwithweb-jsp" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 dark:text-blue-400 flex items-center">
+              <span class="mr-1">View Project</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-8 text-center text-gray-900 dark:text-white">Contact</h2>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold mb-4 flex items-center text-gray-800 dark:text-gray-200">
+            <i class="fas fa-paper-plane text-blue-600 mr-2"></i>
+            <span>Send Me a Message</span>
+          </h3>
+          <form class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium mb-1" for="name">Name</label>
+              <input id="name" type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg bg-white text-gray-800 dark:bg-gray-800 dark:text-white" required />
+            </div>
+            <div>
+              <label class="block text-sm font-medium mb-1" for="email">Email</label>
+              <input id="email" type="email" placeholder="Your Email" class="w-full p-3 border rounded-lg bg-white text-gray-800 dark:bg-gray-800 dark:text-white" required />
+            </div>
+            <div>
+              <label class="block text-sm font-medium mb-1" for="message">Message</label>
+              <textarea id="message" placeholder="Your Message" class="w-full p-3 border rounded-lg bg-white text-gray-800 dark:bg-gray-800 dark:text-white h-36" required></textarea>
+            </div>
+            <button type="submit" onclick="thankMessage(event)" style="background: linear-gradient(135deg, #E8A44B, #FFBF63); color: #0C0A04;" class="w-full px-4 py-3 rounded-lg hover:shadow-xl transition duration-300 flex items-center justify-center">
+              <i class="fas fa-paper-plane mr-2"></i> Send Message
+            </button>
+          </form>
+          <p id="thanksText" class="mt-4 text-green-500 hidden">Thanks for reaching out! ✅</p>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold mb-4 flex items-center text-gray-800 dark:text-gray-200">
+            <i class="fas fa-link text-blue-600 mr-2"></i>
+            <span>Connect With Me</span>
+          </h3>
+          
+          <ul class="space-y-4">
+            <li class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-600 transition">
+              <i class="fab fa-github text-2xl text-gray-800 dark:text-gray-200 mr-3"></i>
+              <div>
+                <p class="font-medium text-gray-800 dark:text-gray-200">GitHub</p>
+                <a href="https://github.com/aashishrajput9838" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline">github.com/aashishrajput9838</a>
+              </div>
+            </li>
+            
+            <li class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-600 transition">
+              <i class="fas fa-envelope text-2xl text-gray-800 dark:text-gray-200 mr-3"></i>
+              <div>
+                <p class="font-medium text-gray-800 dark:text-gray-200">Email</p>
+                <a href="mailto:aashishrajput9838@gmail.com" class="text-blue-600 dark:text-blue-400 hover:underline">aashishrajput9838@gmail.com</a>
+              </div>
+            </li>
+            
+            <li class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-600 transition">
+              <i class="fab fa-linkedin text-2xl text-gray-800 dark:text-gray-200 mr-3"></i>
+              <div>
+                <p class="font-medium text-gray-800 dark:text-gray-200">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/aashishrajput9838/" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline">linkedin.com/in/aashishrajput9838</a>
+              </div>
+            </li>
+          </ul>
+          
+          <div class="mt-6 p-4 bg-gray-50 dark:bg-gray-600 rounded-lg">
+            <p class="text-center text-gray-700 dark:text-gray-200">
+              <i class="far fa-clock mr-1"></i> Response time: Usually within 24 hours
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-8 text-sm" style="background: linear-gradient(135deg, #E8A44B, #FFBF63); color: #0C0A04;">
+    <div class="max-w-4xl mx-auto">
+      <p class="text-lg font-semibold">&copy; 2024 Aashish Rajput</p>
+      <p class="mt-2">B.Tech CSE Student, Sharda University</p>
+      
+      <div class="flex justify-center space-x-4 mt-4">
+        <a href="https://github.com/aashishrajput9838" target="_blank" rel="noopener noreferrer" class="text-gray-900 hover:text-gray-700 text-xl">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/aashishrajput9838/" target="_blank" rel="noopener noreferrer" class="text-gray-900 hover:text-gray-700 text-xl">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:aashishrajput9838@gmail.com" class="text-gray-900 hover:text-gray-700 text-xl">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      
+      <p class="mt-4 text-xs text-gray-900">
+        Built with HTML, CSS, and JavaScript. Icons by FontAwesome. 
+        <a href="#top" class="underline hover:text-gray-700">Back to top</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
